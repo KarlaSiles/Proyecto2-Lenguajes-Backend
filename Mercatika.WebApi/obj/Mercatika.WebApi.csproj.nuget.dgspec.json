@@ -1,0 +1,301 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.WebApi\\Mercatika.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.Business\\Mercatika.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.Business\\Mercatika.Business.csproj",
+        "projectName": "Mercatika.Business",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.Business\\Mercatika.Business.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj"
+              },
+              "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj",
+        "projectName": "Mercatika.DataAccess",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj",
+        "projectName": "Mercatika.Domain",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.WebApi\\Mercatika.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.WebApi\\Mercatika.WebApi.csproj",
+        "projectName": "Mercatika.WebApi",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.WebApi\\Mercatika.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.Business\\Mercatika.Business.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.Business\\Mercatika.Business.csproj"
+              },
+              "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

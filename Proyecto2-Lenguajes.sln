@@ -1,9 +1,39 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36109.1 d17.14
+VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercatika.Business", "Mercatika.Business\Mercatika.Business.csproj", "{ACAD1EED-5077-4677-AACC-1A5EF6985A75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercatika.DataAccess", "Mercatika.DataAccess\Mercatika.DataAccess.csproj", "{676617E7-73C8-408E-8F23-B08F33D7F33C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercatika.Domain", "Mercatika.Domain\Mercatika.Domain.csproj", "{1B270ED7-A848-4609-98A3-CED65388B9D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercatika.WebApi", "Mercatika.WebApi\Mercatika.WebApi.csproj", "{3A44953E-5339-45B9-A7A9-D6E46CDB52B2}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACAD1EED-5077-4677-AACC-1A5EF6985A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACAD1EED-5077-4677-AACC-1A5EF6985A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACAD1EED-5077-4677-AACC-1A5EF6985A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACAD1EED-5077-4677-AACC-1A5EF6985A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{676617E7-73C8-408E-8F23-B08F33D7F33C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{676617E7-73C8-408E-8F23-B08F33D7F33C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{676617E7-73C8-408E-8F23-B08F33D7F33C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{676617E7-73C8-408E-8F23-B08F33D7F33C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B270ED7-A848-4609-98A3-CED65388B9D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B270ED7-A848-4609-98A3-CED65388B9D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B270ED7-A848-4609-98A3-CED65388B9D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B270ED7-A848-4609-98A3-CED65388B9D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A44953E-5339-45B9-A7A9-D6E46CDB52B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A44953E-5339-45B9-A7A9-D6E46CDB52B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A44953E-5339-45B9-A7A9-D6E46CDB52B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A44953E-5339-45B9-A7A9-D6E46CDB52B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

@@ -78,10 +78,9 @@ namespace Mercatika.DataAccess
         public async Task AddOrderAsync(Order order)
         {
             using SqlConnection connection = new SqlConnection(connectionString);
-            string sql = @"INSERT INTO [Order] (order_id, client_id, employee_id, order_date, address_trip, province_trip, country_trip, phone_trip, date_trip) 
-                           VALUES (@order_id, @client_id, @employee_id, @order_date, @address_trip, @province_trip, @country_trip, @phone_trip, @date_trip)";
+            string sql = @"INSERT INTO [Order] (client_id, employee_id, order_date, address_trip, province_trip, country_trip, phone_trip, date_trip) 
+                           VALUES (@client_id, @employee_id, @order_date, @address_trip, @province_trip, @country_trip, @phone_trip, @date_trip)";
             SqlCommand command = new SqlCommand(sql, connection);
-            command.Parameters.AddWithValue("@order_id", order.OrderId);
             command.Parameters.AddWithValue("@client_id", order.ClientId);
             command.Parameters.AddWithValue("@employee_id", order.EmployeeId);
             command.Parameters.AddWithValue("@order_date", order.OrderDate);

@@ -1,21 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\A\u00F1o 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ACAD1EED-5077-4677-AACC-1A5EF6985A75}|Mercatika.Business\\Mercatika.Business.csproj|c:\\users\\beth_\\videos\\proyecto2_lenguajes_backend\\mercatika.business\\clientbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACAD1EED-5077-4677-AACC-1A5EF6985A75}|Mercatika.Business\\Mercatika.Business.csproj|solutionrelative:mercatika.business\\clientbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A44953E-5339-45B9-A7A9-D6E46CDB52B2}|Mercatika.WebApi\\Mercatika.WebApi.csproj|c:\\users\\usuario\\desktop\\universidad\\a\u00F1o 3\\lenguajes\\proyecto 2\\backend 3\\proyecto2-lenguajes-backend\\mercatika.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A44953E-5339-45B9-A7A9-D6E46CDB52B2}|Mercatika.WebApi\\Mercatika.WebApi.csproj|solutionrelative:mercatika.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A44953E-5339-45B9-A7A9-D6E46CDB52B2}|Mercatika.WebApi\\Mercatika.WebApi.csproj|c:\\users\\beth_\\videos\\proyecto2_lenguajes_backend\\mercatika.webapi\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A44953E-5339-45B9-A7A9-D6E46CDB52B2}|Mercatika.WebApi\\Mercatika.WebApi.csproj|c:\\users\\usuario\\desktop\\universidad\\a\u00F1o 3\\lenguajes\\proyecto 2\\backend 3\\proyecto2-lenguajes-backend\\mercatika.webapi\\controllers\\orderdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A44953E-5339-45B9-A7A9-D6E46CDB52B2}|Mercatika.WebApi\\Mercatika.WebApi.csproj|solutionrelative:mercatika.webapi\\controllers\\orderdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A44953E-5339-45B9-A7A9-D6E46CDB52B2}|Mercatika.WebApi\\Mercatika.WebApi.csproj|c:\\users\\usuario\\desktop\\universidad\\a\u00F1o 3\\lenguajes\\proyecto 2\\backend 3\\proyecto2-lenguajes-backend\\mercatika.webapi\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A44953E-5339-45B9-A7A9-D6E46CDB52B2}|Mercatika.WebApi\\Mercatika.WebApi.csproj|solutionrelative:mercatika.webapi\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F0660EA-31B9-4267-8736-688B044753F7}|Mercatika.Tests\\Mercatika.Tests.csproj|c:\\users\\beth_\\videos\\proyecto2_lenguajes_backend\\mercatika.tests\\clientdatatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ACAD1EED-5077-4677-AACC-1A5EF6985A75}|Mercatika.Business\\Mercatika.Business.csproj|c:\\users\\usuario\\desktop\\universidad\\a\u00F1o 3\\lenguajes\\proyecto 2\\backend 3\\proyecto2-lenguajes-backend\\mercatika.business\\orderdetailbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACAD1EED-5077-4677-AACC-1A5EF6985A75}|Mercatika.Business\\Mercatika.Business.csproj|solutionrelative:mercatika.business\\orderdetailbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACAD1EED-5077-4677-AACC-1A5EF6985A75}|Mercatika.Business\\Mercatika.Business.csproj|c:\\users\\usuario\\desktop\\universidad\\a\u00F1o 3\\lenguajes\\proyecto 2\\backend 3\\proyecto2-lenguajes-backend\\mercatika.business\\clientbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACAD1EED-5077-4677-AACC-1A5EF6985A75}|Mercatika.Business\\Mercatika.Business.csproj|solutionrelative:mercatika.business\\clientbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F0660EA-31B9-4267-8736-688B044753F7}|Mercatika.Tests\\Mercatika.Tests.csproj|c:\\users\\usuario\\desktop\\universidad\\a\u00F1o 3\\lenguajes\\proyecto 2\\backend 3\\proyecto2-lenguajes-backend\\mercatika.tests\\clientdatatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F0660EA-31B9-4267-8736-688B044753F7}|Mercatika.Tests\\Mercatika.Tests.csproj|solutionrelative:mercatika.tests\\clientdatatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{676617E7-73C8-408E-8F23-B08F33D7F33C}|Mercatika.DataAccess\\Mercatika.DataAccess.csproj|c:\\users\\beth_\\videos\\proyecto2_lenguajes_backend\\mercatika.dataaccess\\clientdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{676617E7-73C8-408E-8F23-B08F33D7F33C}|Mercatika.DataAccess\\Mercatika.DataAccess.csproj|c:\\users\\usuario\\desktop\\universidad\\a\u00F1o 3\\lenguajes\\proyecto 2\\backend 3\\proyecto2-lenguajes-backend\\mercatika.dataaccess\\clientdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{676617E7-73C8-408E-8F23-B08F33D7F33C}|Mercatika.DataAccess\\Mercatika.DataAccess.csproj|solutionrelative:mercatika.dataaccess\\clientdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,23 +55,62 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ClientController.cs",
-              "DocumentMoniker": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.WebApi\\Controllers\\ClientController.cs",
-              "RelativeDocumentMoniker": "Mercatika.WebApi\\Controllers\\ClientController.cs",
-              "ToolTip": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.WebApi\\Controllers\\ClientController.cs",
-              "RelativeToolTip": "Mercatika.WebApi\\Controllers\\ClientController.cs",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAswLYAAAAAAAAAAAAAAA==",
+              "Title": "OrderDetailController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Universidad\\A\u00F1o 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.WebApi\\Controllers\\OrderDetailController.cs",
+              "RelativeDocumentMoniker": "Mercatika.WebApi\\Controllers\\OrderDetailController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Universidad\\A\u00F1o 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.WebApi\\Controllers\\OrderDetailController.cs",
+              "RelativeToolTip": "Mercatika.WebApi\\Controllers\\OrderDetailController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T06:06:59.559Z",
+              "WhenOpened": "2025-06-28T08:19:19.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Universidad\\A\u00F1o 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Mercatika.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Universidad\\A\u00F1o 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.WebApi\\Program.cs",
+              "RelativeToolTip": "Mercatika.WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T08:16:07.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Universidad\\A\u00F1o 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.WebApi\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "Mercatika.WebApi\\Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Universidad\\A\u00F1o 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.WebApi\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "Mercatika.WebApi\\Controllers\\ClientController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T08:16:02.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderDetailBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Universidad\\A\u00F1o 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.Business\\OrderDetailBusiness.cs",
+              "RelativeDocumentMoniker": "Mercatika.Business\\OrderDetailBusiness.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Universidad\\A\u00F1o 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.Business\\OrderDetailBusiness.cs",
+              "RelativeToolTip": "Mercatika.Business\\OrderDetailBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T08:15:50.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ClientDataTest.cs",
-              "DocumentMoniker": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Tests\\ClientDataTest.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Universidad\\A\u00F1o 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.Tests\\ClientDataTest.cs",
               "RelativeDocumentMoniker": "Mercatika.Tests\\ClientDataTest.cs",
-              "ToolTip": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Tests\\ClientDataTest.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Universidad\\A\u00F1o 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.Tests\\ClientDataTest.cs",
               "RelativeToolTip": "Mercatika.Tests\\ClientDataTest.cs",
               "ViewState": "AgIAAI0AAAAAAAAAAAAowLUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -67,11 +118,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ClientData.cs",
-              "DocumentMoniker": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.DataAccess\\ClientData.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Universidad\\A\u00F1o 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\ClientData.cs",
               "RelativeDocumentMoniker": "Mercatika.DataAccess\\ClientData.cs",
-              "ToolTip": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.DataAccess\\ClientData.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Universidad\\A\u00F1o 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\ClientData.cs",
               "RelativeToolTip": "Mercatika.DataAccess\\ClientData.cs",
               "ViewState": "AgIAANQAAAAAAAAAAAAswO8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -79,13 +130,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ClientBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Business\\ClientBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Universidad\\A\u00F1o 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.Business\\ClientBusiness.cs",
               "RelativeDocumentMoniker": "Mercatika.Business\\ClientBusiness.cs",
-              "ToolTip": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Business\\ClientBusiness.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Universidad\\A\u00F1o 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.Business\\ClientBusiness.cs",
               "RelativeToolTip": "Mercatika.Business\\ClientBusiness.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-28T06:04:18.411Z",
               "EditorCaption": ""

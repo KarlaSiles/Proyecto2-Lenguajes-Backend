@@ -11,6 +11,7 @@
         private string countryTrip;
         private int phoneTrip;
         private DateTime dateTrip;
+        public List<OrderDetail> Details { get; set; } = new();
 
         public Order()
         {

@@ -8,6 +8,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Servicios registrados
+builder.Services.AddScoped<OrderDetailBusiness>(
+    sp => new OrderDetailBusiness(builder.Configuration.GetConnectionString("DefaultConnection"))
+);
+
 builder.Services.AddScoped<OrderBusiness>(
     sp => new OrderBusiness(builder.Configuration.GetConnectionString("DefaultConnection"))
 );

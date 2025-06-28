@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Tests\\Mercatika.Tests.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj",
         "packagesPath": "C:\\Users\\gsile\\.nuget\\packages\\",
         "outputPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\obj\\",
+=======
+    "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Tests\\Mercatika.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj",
+        "projectName": "Mercatika.DataAccess",
+        "projectPath": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\beth_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.DataAccess\\obj\\",
+>>>>>>> 9852bc1 (Limpieza)
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\gsile\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\beth_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 9852bc1 (Limpieza)
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +44,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {
                 "projectPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj"
+=======
+              "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {
+                "projectPath": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Domain\\Mercatika.Domain.csproj"
+>>>>>>> 9852bc1 (Limpieza)
               }
             }
           }
@@ -82,6 +106,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.300, 9.0.300]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -91,6 +133,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -99,12 +142,26 @@
         "projectPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj",
         "packagesPath": "C:\\Users\\gsile\\.nuget\\packages\\",
         "outputPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\obj\\",
+=======
+    "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Domain\\Mercatika.Domain.csproj",
+        "projectName": "Mercatika.Domain",
+        "projectPath": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Domain\\Mercatika.Domain.csproj",
+        "packagesPath": "C:\\Users\\beth_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Domain\\obj\\",
+>>>>>>> 9852bc1 (Limpieza)
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\gsile\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\beth_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 9852bc1 (Limpieza)
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -113,6 +170,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -157,6 +215,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.300, 9.0.300]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -166,6 +242,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Tests\\Mercatika.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -174,12 +251,26 @@
         "projectPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Tests\\Mercatika.Tests.csproj",
         "packagesPath": "C:\\Users\\gsile\\.nuget\\packages\\",
         "outputPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Tests\\obj\\",
+=======
+    "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Tests\\Mercatika.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Tests\\Mercatika.Tests.csproj",
+        "projectName": "Mercatika.Tests",
+        "projectPath": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Tests\\Mercatika.Tests.csproj",
+        "packagesPath": "C:\\Users\\beth_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Tests\\obj\\",
+>>>>>>> 9852bc1 (Limpieza)
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\gsile\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\beth_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 9852bc1 (Limpieza)
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -188,17 +279,26 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj": {
                 "projectPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj"
               },
               "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {
                 "projectPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj"
+=======
+              "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj"
+              },
+              "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {
+                "projectPath": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Domain\\Mercatika.Domain.csproj"
+>>>>>>> 9852bc1 (Limpieza)
               }
             }
           }
@@ -255,6 +355,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.300, 9.0.300]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

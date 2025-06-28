@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mercatika.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76454ca9386be99bb92fa7328687caf0ad1697ba")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1fb7a9acfef766b97e96c181afbe88cbc515855")]
+>>>>>>> 9852bc1 (Limpieza)
 [assembly: System.Reflection.AssemblyProductAttribute("Mercatika.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mercatika.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

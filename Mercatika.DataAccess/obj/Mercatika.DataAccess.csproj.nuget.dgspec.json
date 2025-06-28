@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Back Products\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj": {}
+    "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Back Products\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj": {
+    "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Back Products\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj",
         "projectName": "Mercatika.DataAccess",
-        "projectPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Back Products\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\gsile\\.nuget\\packages\\",
-        "outputPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Back Products\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\beth_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\gsile\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\beth_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Back Products\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {
-                "projectPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Back Products\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj"
+              "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {
+                "projectPath": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Domain\\Mercatika.Domain.csproj"
               }
             }
           }
@@ -54,6 +55,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.9.3, )"
+            },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[6.0.2, )"
@@ -61,6 +66,10 @@
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[9.0.6, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
             }
           },
           "imports": [
@@ -74,6 +83,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.300, 9.0.300]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -83,20 +110,20 @@
         }
       }
     },
-    "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Back Products\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {
+    "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Back Products\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Domain\\Mercatika.Domain.csproj",
         "projectName": "Mercatika.Domain",
-        "projectPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Back Products\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj",
-        "packagesPath": "C:\\Users\\gsile\\.nuget\\packages\\",
-        "outputPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Back Products\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\obj\\",
+        "projectPath": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Domain\\Mercatika.Domain.csproj",
+        "packagesPath": "C:\\Users\\beth_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\gsile\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\beth_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -105,6 +132,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -128,6 +156,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.9.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -139,6 +177,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.300, 9.0.300]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

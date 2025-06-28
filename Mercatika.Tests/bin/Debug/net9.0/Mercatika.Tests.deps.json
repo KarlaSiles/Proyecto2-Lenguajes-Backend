@@ -8,13 +8,15 @@
     ".NETCoreApp,Version=v9.0": {
       "Mercatika.Tests/1.0.0": {
         "dependencies": {
+          "MSTest.TestFramework": "3.9.3",
           "Mercatika.DataAccess": "1.0.0",
           "Mercatika.Domain": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.12.0",
           "NUnit": "4.2.2",
           "NUnit.Analyzers": "4.4.0",
           "NUnit3TestAdapter": "4.6.0",
-          "coverlet.collector": "6.0.2"
+          "coverlet.collector": "6.0.2",
+          "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions": "14.0.0.0"
         },
         "runtime": {
           "Mercatika.Tests.dll": {}
@@ -597,6 +599,59 @@
           }
         }
       },
+      "MSTest.Analyzers/3.9.3": {},
+      "MSTest.TestFramework/3.9.3": {
+        "dependencies": {
+          "MSTest.Analyzers": "3.9.3"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {
+            "assemblyVersion": "14.0.0.0",
+            "fileVersion": "3.900.325.31701"
+          }
+        },
+        "resources": {
+          "lib/net9.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net9.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net9.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net9.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net9.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net9.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net9.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net9.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net9.0/pt-BR/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net9.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net9.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net9.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net9.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
       "Newtonsoft.Json/13.0.1": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
@@ -727,9 +782,11 @@
       "System.Threading.Tasks.Extensions/4.5.4": {},
       "Mercatika.DataAccess/1.0.0": {
         "dependencies": {
+          "MSTest.TestFramework": "3.9.3",
           "Mercatika.Domain": "1.0.0",
           "Microsoft.Data.SqlClient": "6.0.2",
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.6"
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.6",
+          "Microsoft.NET.Test.Sdk": "17.12.0"
         },
         "runtime": {
           "Mercatika.DataAccess.dll": {
@@ -739,10 +796,22 @@
         }
       },
       "Mercatika.Domain/1.0.0": {
+        "dependencies": {
+          "MSTest.TestFramework": "3.9.3",
+          "Microsoft.NET.Test.Sdk": "17.12.0"
+        },
         "runtime": {
           "Mercatika.Domain.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions/14.0.0.0": {
+        "runtime": {
+          "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {
+            "assemblyVersion": "14.0.0.0",
+            "fileVersion": "3.900.325.31701"
           }
         }
       }
@@ -943,6 +1012,20 @@
       "path": "microsoft.testplatform.testhost/17.12.0",
       "hashPath": "microsoft.testplatform.testhost.17.12.0.nupkg.sha512"
     },
+    "MSTest.Analyzers/3.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M8dR1yQZErWiH8BtQT1L66xnuRbSLa8WgQLwI/A0yU/rFmEAorbU+hUj3JeJRqyVFwrDpjeQ4rmg7Vo6zSgzRw==",
+      "path": "mstest.analyzers/3.9.3",
+      "hashPath": "mstest.analyzers.3.9.3.nupkg.sha512"
+    },
+    "MSTest.TestFramework/3.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GkswaCXXGhSx6bHkl01ybBffVtRR/IPgyzIHDWywd6/yVNH96MaGuUeEtpuGaJXHe2sdMBgB2etp6panY4w6pQ==",
+      "path": "mstest.testframework/3.9.3",
+      "hashPath": "mstest.testframework.3.9.3.nupkg.sha512"
+    },
     "Newtonsoft.Json/13.0.1": {
       "type": "package",
       "serviceable": true,
@@ -1083,6 +1166,11 @@
     },
     "Mercatika.Domain/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions/14.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

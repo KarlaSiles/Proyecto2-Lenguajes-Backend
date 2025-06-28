@@ -1,0 +1,38 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.wsuo
+*.futdcache.v2
+*.dtbcache.v2
+*.vsidx
+*.db
+TestStore/
+applicationhost.config
+VSWorkspaceState.json
+
+# Binarios y builds
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.nupkg
+*.msCoverageSourceRootsMapping_*
+CoverletSourceRootsMapping_*
+*.dswa.cache.json
+
+# Dependencias NuGet
+packages/
+*.nuget.dgspec.json
+*.nuget.g.props
+project.assets.json
+project.nuget.cache
+
+# Archivos de proyecto
+*.csproj.AssemblyReference.cache
+*.AssemblyInfo.cs
+*.AssemblyInfoInputs.cache
+*.GeneratedMSBuildEditorConfig.editorconfig
+*.assets.cache

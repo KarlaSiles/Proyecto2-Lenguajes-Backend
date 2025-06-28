@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mercatika.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1483721a81ce708d91aef32005d2390dffda803")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f93f3a33236e7f498e43a96db681c0e4b5aaccba")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mercatika.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mercatika.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

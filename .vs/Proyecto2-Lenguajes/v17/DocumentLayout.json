@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ACAD1EED-5077-4677-AACC-1A5EF6985A75}|Mercatika.Business\\Mercatika.Business.csproj|c:\\users\\beth_\\videos\\proyecto2_lenguajes_backend\\mercatika.business\\clientbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACAD1EED-5077-4677-AACC-1A5EF6985A75}|Mercatika.Business\\Mercatika.Business.csproj|solutionrelative:mercatika.business\\clientbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3A44953E-5339-45B9-A7A9-D6E46CDB52B2}|Mercatika.WebApi\\Mercatika.WebApi.csproj|c:\\users\\beth_\\videos\\proyecto2_lenguajes_backend\\mercatika.webapi\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A44953E-5339-45B9-A7A9-D6E46CDB52B2}|Mercatika.WebApi\\Mercatika.WebApi.csproj|solutionrelative:mercatika.webapi\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{676617E7-73C8-408E-8F23-B08F33D7F33C}|Mercatika.DataAccess\\Mercatika.DataAccess.csproj|c:\\users\\beth_\\videos\\proyecto2_lenguajes_backend\\mercatika.dataaccess\\clientdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{676617E7-73C8-408E-8F23-B08F33D7F33C}|Mercatika.DataAccess\\Mercatika.DataAccess.csproj|solutionrelative:mercatika.dataaccess\\clientdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACAD1EED-5077-4677-AACC-1A5EF6985A75}|Mercatika.Business\\Mercatika.Business.csproj|c:\\users\\beth_\\videos\\proyecto2_lenguajes_backend\\mercatika.business\\clientbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACAD1EED-5077-4677-AACC-1A5EF6985A75}|Mercatika.Business\\Mercatika.Business.csproj|solutionrelative:mercatika.business\\clientbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ClientController.cs",
               "DocumentMoniker": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.WebApi\\Controllers\\ClientController.cs",
               "RelativeDocumentMoniker": "Mercatika.WebApi\\Controllers\\ClientController.cs",
@@ -55,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ClientDataTest.cs",
               "DocumentMoniker": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Tests\\ClientDataTest.cs",
               "RelativeDocumentMoniker": "Mercatika.Tests\\ClientDataTest.cs",
@@ -63,12 +63,11 @@
               "RelativeToolTip": "Mercatika.Tests\\ClientDataTest.cs",
               "ViewState": "AgIAAI0AAAAAAAAAAAAowLUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T06:05:07.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T06:05:07.844Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ClientData.cs",
               "DocumentMoniker": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.DataAccess\\ClientData.cs",
               "RelativeDocumentMoniker": "Mercatika.DataAccess\\ClientData.cs",
@@ -76,18 +75,17 @@
               "RelativeToolTip": "Mercatika.DataAccess\\ClientData.cs",
               "ViewState": "AgIAANQAAAAAAAAAAAAswO8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T06:04:48.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T06:04:48.78Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ClientBusiness.cs",
               "DocumentMoniker": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Business\\ClientBusiness.cs",
               "RelativeDocumentMoniker": "Mercatika.Business\\ClientBusiness.cs",
               "ToolTip": "C:\\Users\\beth_\\Videos\\Proyecto2_Lenguajes_backend\\Mercatika.Business\\ClientBusiness.cs",
               "RelativeToolTip": "Mercatika.Business\\ClientBusiness.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-28T06:04:18.411Z",
               "EditorCaption": ""

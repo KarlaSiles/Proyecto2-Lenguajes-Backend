@@ -4,14 +4,6 @@ using Mercatika.DataAccess;
 using Microsoft.Extensions.Configuration;
 
 
-
-using Mercatika.Domain;
-using Mercatika.DataAccess;
-using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-
 namespace Mercatika.Business
 {
     public class ProductBusiness
@@ -74,6 +66,27 @@ namespace Mercatika.Business
             return await productData.UpdateProductAsync(product);
         }
 
+        public async Task<bool> UpdateProductDetailAsync(int productId, string? code, int stock, string? size)
+        {
+            if (productId <= 0)
+                throw new ArgumentException("ID de producto no válido.");
+
+            if (stock < 0)
+                throw new ArgumentException("El stock no puede ser negativo.");
+
+            var product = new Product { ProductId = productId };
+
+            var detail = new ProductDetail
+            {
+                Product = product,
+                UniqueProductCode = code,
+                StockAmount = stock,
+                Size = size
+            };
+
+            return await productData.UpdateProductDetailAsync(detail);
+        }
+
         public async Task<bool> DeleteProductAsync(int productId)
         {
             if (productId <= 0)
@@ -97,12 +110,12 @@ namespace Mercatika.Business
 
             return await productData.GetProductByIdAsync(productId);
         }
-    
-            // Aquí el método que te falta para el controller:
+
         public async Task<bool> ProductExistsAsync(int id)
         {
             var product = await productData.GetProductByIdAsync(id);
             return product != null;
         }
     }
-    }
+}
+

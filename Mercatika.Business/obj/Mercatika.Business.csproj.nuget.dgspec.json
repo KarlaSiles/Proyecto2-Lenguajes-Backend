@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.Business\\Mercatika.Business.csproj": {}
+    "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Business\\Mercatika.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.Business\\Mercatika.Business.csproj": {
+    "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Business\\Mercatika.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.Business\\Mercatika.Business.csproj",
+        "projectUniqueName": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Business\\Mercatika.Business.csproj",
         "projectName": "Mercatika.Business",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.Business\\Mercatika.Business.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.Business\\obj\\",
+        "projectPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Business\\Mercatika.Business.csproj",
+        "packagesPath": "C:\\Users\\gsile\\.nuget\\packages\\",
+        "outputPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gsile\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj"
+              "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj": {
+                "projectPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj"
               },
-              "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj"
+              "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {
+                "projectPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj"
               }
             }
           }
@@ -90,20 +90,20 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj": {
+    "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj",
+        "projectUniqueName": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj",
         "projectName": "Mercatika.DataAccess",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\obj\\",
+        "projectPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\Mercatika.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\gsile\\.nuget\\packages\\",
+        "outputPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gsile\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -118,8 +118,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj"
+              "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {
+                "projectPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj"
               }
             }
           }
@@ -177,20 +177,20 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {
+    "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj",
+        "projectUniqueName": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj",
         "projectName": "Mercatika.Domain",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Backend 3\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\obj\\",
+        "projectPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj",
+        "packagesPath": "C:\\Users\\gsile\\.nuget\\packages\\",
+        "outputPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Products cambios\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gsile\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -289,7 +289,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Mercatika.WebApi.Controllers.ProductsController",
+    "ContainingType": "ProductsController",
     "Method": "Get",
     "RelativePath": "api/Products",
     "HttpMethod": "GET",
@@ -315,7 +315,7 @@
     ]
   },
   {
-    "ContainingType": "Mercatika.WebApi.Controllers.ProductsController",
+    "ContainingType": "ProductsController",
     "Method": "Create",
     "RelativePath": "api/Products",
     "HttpMethod": "POST",
@@ -341,7 +341,7 @@
     ]
   },
   {
-    "ContainingType": "Mercatika.WebApi.Controllers.ProductsController",
+    "ContainingType": "ProductsController",
     "Method": "GetById",
     "RelativePath": "api/Products/{id}",
     "HttpMethod": "GET",
@@ -367,7 +367,7 @@
     ]
   },
   {
-    "ContainingType": "Mercatika.WebApi.Controllers.ProductsController",
+    "ContainingType": "ProductsController",
     "Method": "Update",
     "RelativePath": "api/Products/{id}",
     "HttpMethod": "PUT",
@@ -388,7 +388,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Mercatika.WebApi.Controllers.ProductsController",
+    "ContainingType": "ProductsController",
     "Method": "Delete",
     "RelativePath": "api/Products/{id}",
     "HttpMethod": "DELETE",
@@ -398,6 +398,48 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductsController",
+    "Method": "AddProductDetail",
+    "RelativePath": "api/Products/{productId}/details",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "detail",
+        "Type": "Mercatika.Domain.ProductDetail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductsController",
+    "Method": "UpdateProductDetail",
+    "RelativePath": "api/Products/{productId}/details",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "detail",
+        "Type": "Mercatika.Domain.ProductDetail",
         "IsRequired": true
       }
     ],

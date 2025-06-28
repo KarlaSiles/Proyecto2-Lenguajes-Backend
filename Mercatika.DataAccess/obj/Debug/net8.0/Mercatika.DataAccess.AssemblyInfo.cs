@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mercatika.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+035a302dc3f6f6803cc32d9fafe62787a4463ec7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76454ca9386be99bb92fa7328687caf0ad1697ba")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mercatika.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mercatika.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -8,50 +8,16 @@ namespace Mercatika.Domain
 {
     public class ProductDetail
     {
-        private int productDetailtId;
-        private int stockAmount;
-        private String uniqueProductCode;
-        private string size;
-        private Product product;
-        public ProductDetail()
-        {
-        }
+        public int ProductDetailId { get; set; }
 
-        public ProductDetail(int productDetailtId, int stockAmount, string uniqueProductCode, string size, Product product)
-        {
-            this.productDetailtId = productDetailtId;
-            this.stockAmount = stockAmount;
-            this.uniqueProductCode = uniqueProductCode;
-            this.size = size;
-            this.product = product;
-        }
+        public int StockAmount { get; set; }
 
-        public int ProductDetailtId
-        {
-            get => productDetailtId;
-            set => productDetailtId = value;
-        }
+        public string? UniqueProductCode { get; set; }  
 
-        public int StockAmount
-        {
-            get => stockAmount;
-            set => stockAmount = value;
-        }
+        public string? Size { get; set; }               
 
-        public string UniqueProductCode
-        {
-            get => uniqueProductCode;
-            set => uniqueProductCode = value;
-        }
-        public string Size
-        {
-            get => size;
-            set => size = value;
-        }
-        public Product Product
-        {
-            get => product;
-            set => product = value;
-        }
+        public Product? Product { get; set; }          
     }
+
 }
+

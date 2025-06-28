@@ -1,6 +1,0 @@
-@Mercatika.WebApi_HostAddress = http://localhost:5231
-
-GET {{Mercatika.WebApi_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

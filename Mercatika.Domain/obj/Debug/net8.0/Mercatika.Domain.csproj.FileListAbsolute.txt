@@ -10,3 +10,27 @@ C:\Users\Usuario\Desktop\Universidad\Año 3\Lenguajes\Proyecto 2\Good Backend\Pr
 C:\Users\Usuario\Desktop\Universidad\Año 3\Lenguajes\Proyecto 2\Good Backend\Proyecto2-Lenguajes-Backend\Mercatika.Domain\obj\Debug\net8.0\refint\Mercatika.Domain.dll
 C:\Users\Usuario\Desktop\Universidad\Año 3\Lenguajes\Proyecto 2\Good Backend\Proyecto2-Lenguajes-Backend\Mercatika.Domain\obj\Debug\net8.0\Mercatika.Domain.pdb
 C:\Users\Usuario\Desktop\Universidad\Año 3\Lenguajes\Proyecto 2\Good Backend\Proyecto2-Lenguajes-Backend\Mercatika.Domain\obj\Debug\net8.0\ref\Mercatika.Domain.dll
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.Domain\bin\Debug\net8.0\Mercatika.Domain.deps.json
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.Domain\bin\Debug\net8.0\Mercatika.Domain.dll
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.Domain\bin\Debug\net8.0\Mercatika.Domain.pdb
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.Domain\obj\Debug\net8.0\Mercatika.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.Domain\obj\Debug\net8.0\Mercatika.Domain.AssemblyInfoInputs.cache
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.Domain\obj\Debug\net8.0\Mercatika.Domain.AssemblyInfo.cs
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.Domain\obj\Debug\net8.0\Mercatika.Domain.csproj.CoreCompileInputs.cache
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.Domain\obj\Debug\net8.0\Mercatika.Domain.sourcelink.json
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.Domain\obj\Debug\net8.0\Mercatika.Domain.dll
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.Domain\obj\Debug\net8.0\refint\Mercatika.Domain.dll
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.Domain\obj\Debug\net8.0\Mercatika.Domain.pdb
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.Domain\obj\Debug\net8.0\ref\Mercatika.Domain.dll
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Domain\bin\Debug\net8.0\Mercatika.Domain.deps.json
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Domain\bin\Debug\net8.0\Mercatika.Domain.dll
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Domain\bin\Debug\net8.0\Mercatika.Domain.pdb
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Domain\obj\Debug\net8.0\Mercatika.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Domain\obj\Debug\net8.0\Mercatika.Domain.AssemblyInfoInputs.cache
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Domain\obj\Debug\net8.0\Mercatika.Domain.AssemblyInfo.cs
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Domain\obj\Debug\net8.0\Mercatika.Domain.csproj.CoreCompileInputs.cache
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Domain\obj\Debug\net8.0\Mercatika.Domain.sourcelink.json
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Domain\obj\Debug\net8.0\Mercatika.Domain.dll
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Domain\obj\Debug\net8.0\refint\Mercatika.Domain.dll
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Domain\obj\Debug\net8.0\Mercatika.Domain.pdb
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Domain\obj\Debug\net8.0\ref\Mercatika.Domain.dll

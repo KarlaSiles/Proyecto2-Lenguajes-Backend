@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {}
+    "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Back Products\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {
+    "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Back Products\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj",
+        "projectUniqueName": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Back Products\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj",
         "projectName": "Mercatika.Domain",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Universidad\\Año 3\\Lenguajes\\Proyecto 2\\Good Backend\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\obj\\",
+        "projectPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Back Products\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\Mercatika.Domain.csproj",
+        "packagesPath": "C:\\Users\\gsile\\.nuget\\packages\\",
+        "outputPath": "D:\\Lenguajes\\Proyectos\\Project 2\\Código\\Backend\\Back Products\\Proyecto2-Lenguajes-Backend\\Mercatika.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gsile\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

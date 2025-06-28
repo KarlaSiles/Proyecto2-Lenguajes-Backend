@@ -16,3 +16,30 @@ C:\Users\Usuario\Desktop\Universidad\Año 3\Lenguajes\Proyecto 2\Good Backend\Pr
 C:\Users\Usuario\Desktop\Universidad\Año 3\Lenguajes\Proyecto 2\Good Backend\Proyecto2-Lenguajes-Backend\Mercatika.Business\obj\Debug\net8.0\refint\Mercatika.Business.dll
 C:\Users\Usuario\Desktop\Universidad\Año 3\Lenguajes\Proyecto 2\Good Backend\Proyecto2-Lenguajes-Backend\Mercatika.Business\obj\Debug\net8.0\Mercatika.Business.pdb
 C:\Users\Usuario\Desktop\Universidad\Año 3\Lenguajes\Proyecto 2\Good Backend\Proyecto2-Lenguajes-Backend\Mercatika.Business\obj\Debug\net8.0\ref\Mercatika.Business.dll
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.Business\obj\Debug\net8.0\Mercatika.Business.csproj.AssemblyReference.cache
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.Business\obj\Debug\net8.0\Mercatika.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.Business\obj\Debug\net8.0\Mercatika.Business.AssemblyInfoInputs.cache
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.Business\obj\Debug\net8.0\Mercatika.Business.AssemblyInfo.cs
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.Business\obj\Debug\net8.0\Mercatika.Business.csproj.CoreCompileInputs.cache
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.Business\obj\Debug\net8.0\Mercatika.Business.sourcelink.json
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.Business\obj\Debug\net8.0\Mercatika.Business.dll
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.Business\obj\Debug\net8.0\refint\Mercatika.Business.dll
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.Business\obj\Debug\net8.0\Mercatika.Business.pdb
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Business\bin\Debug\net8.0\Mercatika.Business.deps.json
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Business\bin\Debug\net8.0\Mercatika.Business.dll
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Business\bin\Debug\net8.0\Mercatika.Business.pdb
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Business\bin\Debug\net8.0\Mercatika.DataAccess.dll
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Business\bin\Debug\net8.0\Mercatika.Domain.dll
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Business\bin\Debug\net8.0\Mercatika.DataAccess.pdb
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Business\bin\Debug\net8.0\Mercatika.Domain.pdb
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Business\obj\Debug\net8.0\Mercatika.Business.csproj.AssemblyReference.cache
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Business\obj\Debug\net8.0\Mercatika.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Business\obj\Debug\net8.0\Mercatika.Business.AssemblyInfoInputs.cache
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Business\obj\Debug\net8.0\Mercatika.Business.AssemblyInfo.cs
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Business\obj\Debug\net8.0\Mercatika.Business.csproj.CoreCompileInputs.cache
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Business\obj\Debug\net8.0\Mercatika.Business.sourcelink.json
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Business\obj\Debug\net8.0\Mercatik.EEFFDB5E.Up2Date
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Business\obj\Debug\net8.0\Mercatika.Business.dll
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Business\obj\Debug\net8.0\refint\Mercatika.Business.dll
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Business\obj\Debug\net8.0\Mercatika.Business.pdb
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.Business\obj\Debug\net8.0\ref\Mercatika.Business.dll

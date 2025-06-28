@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercatika.Domain", "Mercati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercatika.WebApi", "Mercatika.WebApi\Mercatika.WebApi.csproj", "{3A44953E-5339-45B9-A7A9-D6E46CDB52B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercatika.Tests", "Mercatika.Tests\Mercatika.Tests.csproj", "{3F0660EA-31B9-4267-8736-688B044753F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{3A44953E-5339-45B9-A7A9-D6E46CDB52B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A44953E-5339-45B9-A7A9-D6E46CDB52B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A44953E-5339-45B9-A7A9-D6E46CDB52B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F0660EA-31B9-4267-8736-688B044753F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F0660EA-31B9-4267-8736-688B044753F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F0660EA-31B9-4267-8736-688B044753F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F0660EA-31B9-4267-8736-688B044753F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

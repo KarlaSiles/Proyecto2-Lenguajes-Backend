@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mercatika.Business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7de5d3185b2438b313ac57ffb6b29a8f7e1e7444")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7852d1175ff6e47a24e70372e6a805779ff1c66e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mercatika.Business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mercatika.Business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

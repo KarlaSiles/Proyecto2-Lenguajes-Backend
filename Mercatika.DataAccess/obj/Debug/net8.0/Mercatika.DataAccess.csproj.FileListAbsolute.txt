@@ -14,3 +14,35 @@ C:\Users\Usuario\Desktop\Universidad\Año 3\Lenguajes\Proyecto 2\Good Backend\Pr
 C:\Users\Usuario\Desktop\Universidad\Año 3\Lenguajes\Proyecto 2\Good Backend\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\refint\Mercatika.DataAccess.dll
 C:\Users\Usuario\Desktop\Universidad\Año 3\Lenguajes\Proyecto 2\Good Backend\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\Mercatika.DataAccess.pdb
 C:\Users\Usuario\Desktop\Universidad\Año 3\Lenguajes\Proyecto 2\Good Backend\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\ref\Mercatika.DataAccess.dll
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\bin\Debug\net8.0\Mercatika.DataAccess.deps.json
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\bin\Debug\net8.0\Mercatika.DataAccess.dll
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\bin\Debug\net8.0\Mercatika.DataAccess.pdb
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\bin\Debug\net8.0\Mercatika.Domain.dll
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\bin\Debug\net8.0\Mercatika.Domain.pdb
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\Mercatika.DataAccess.csproj.AssemblyReference.cache
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\Mercatika.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\Mercatika.DataAccess.AssemblyInfoInputs.cache
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\Mercatika.DataAccess.AssemblyInfo.cs
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\Mercatika.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\Mercatika.DataAccess.sourcelink.json
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\Mercatik.CAEAB0CD.Up2Date
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\Mercatika.DataAccess.dll
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\refint\Mercatika.DataAccess.dll
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\Mercatika.DataAccess.pdb
+C:\Users\gsile\Source\Repos\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\ref\Mercatika.DataAccess.dll
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\bin\Debug\net8.0\Mercatika.DataAccess.deps.json
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\bin\Debug\net8.0\Mercatika.DataAccess.dll
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\bin\Debug\net8.0\Mercatika.DataAccess.pdb
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\bin\Debug\net8.0\Mercatika.Domain.dll
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\bin\Debug\net8.0\Mercatika.Domain.pdb
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\Mercatika.DataAccess.csproj.AssemblyReference.cache
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\Mercatika.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\Mercatika.DataAccess.AssemblyInfoInputs.cache
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\Mercatika.DataAccess.AssemblyInfo.cs
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\Mercatika.DataAccess.csproj.CoreCompileInputs.cache
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\Mercatika.DataAccess.sourcelink.json
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\Mercatik.CAEAB0CD.Up2Date
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\Mercatika.DataAccess.dll
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\refint\Mercatika.DataAccess.dll
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\Mercatika.DataAccess.pdb
+D:\Lenguajes\Proyectos\Project 2\Código\Backend\Back Products\Proyecto2-Lenguajes-Backend\Mercatika.DataAccess\obj\Debug\net8.0\ref\Mercatika.DataAccess.dll

@@ -22,6 +22,10 @@ builder.Services.AddScoped<ClientBusiness>(
     sp => new ClientBusiness(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
 
+builder.Services.AddScoped<CompanyBusiness>(
+    sp => new CompanyBusiness(builder.Configuration.GetConnectionString("DefaultConnection"))
+);
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

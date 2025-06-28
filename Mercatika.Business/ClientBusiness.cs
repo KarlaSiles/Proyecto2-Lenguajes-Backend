@@ -8,7 +8,7 @@ using Mercatika.Domain;
 
 namespace Mercatika.Business
 {
-    public class ClientBusiness//Hola prueba para el gitignore 80000
+    public class ClientBusiness//Hola prueba para el gitignore 80000  loccc
     {
         private readonly ClientData _clientData;
 

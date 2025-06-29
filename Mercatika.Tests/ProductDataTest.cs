@@ -15,7 +15,7 @@ namespace Mercatika.test
             string connectionString = "Server=163.178.173.130;Database=Mercatika_Proyecto2_Lenguajes;User Id=Lenguajes;Password=lenguajesparaiso2025;TrustServerCertificate=True;";
             productData = new ProductData(connectionString);
         }
-        /*
+
         [Test]
         public async Task InsertarProduct()
         {
@@ -39,7 +39,7 @@ namespace Mercatika.test
             int detailId = await productData.InsertProductDetailAsync(detail);
 
             Assert.That(detailId, Is.GreaterThan(0));
-            Assert.That(detail.ProductDetailtId, Is.EqualTo(detailId));
+            Assert.That(detail.ProductDetailId, Is.EqualTo(detailId));
         }
 
         [Test]
@@ -93,7 +93,7 @@ namespace Mercatika.test
             Assert.That(updated.ProductName, Is.EqualTo("Producto Actualizado"));
             Assert.That(updated.Price, Is.EqualTo(99.99M));
             Assert.That(updated.CategoryCode.CategoryCode, Is.EqualTo(3));
-        }*/
+        }
 
         [Test]
         public async Task DeleteProduct()
@@ -107,7 +107,7 @@ namespace Mercatika.test
             Assert.That(deleted, Is.Null);
         }
 
-        /*
+
 
         [Test]
         public async Task UpdateProductDetail()
@@ -131,9 +131,9 @@ namespace Mercatika.test
             };
 
             int detailId = await productData.InsertProductDetailAsync(detail);
-            detail.ProductDetailtId = detailId;
+            detail.ProductDetailId = detailId;
 
-            
+
             detail.StockAmount = 20;
             detail.Size = "XL";
             detail.UniqueProductCode = "XYZ789";
@@ -142,6 +142,6 @@ namespace Mercatika.test
 
             Assert.That(success, Is.True, "No se pudo actualizar el detalle del producto.");
         }
-        */
+
     }
 }

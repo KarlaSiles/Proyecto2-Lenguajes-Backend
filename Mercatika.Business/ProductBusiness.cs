@@ -98,10 +98,11 @@ namespace Mercatika.Business
         public async Task<List<Product>> SearchProductsAsync(string searchTerm)
         {
             if (string.IsNullOrWhiteSpace(searchTerm))
-                throw new ArgumentException("El término de búsqueda no puede estar vacío.");
+                return await productData.GetAllProductsAsync(); 
 
             return await productData.SearchProductsAsync(searchTerm);
         }
+
 
         public async Task<Product?> GetProductByIdAsync(int productId)
         {
@@ -118,4 +119,5 @@ namespace Mercatika.Business
         }
     }
 }
+
 

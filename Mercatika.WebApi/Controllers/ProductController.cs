@@ -46,6 +46,7 @@ public class ProductsController : ControllerBase
         if (product.CategoryCode == null || product.CategoryCode.CategoryCode <= 0)
             return BadRequest("Categoría inválida.");
 
+        
         var newId = await productBusiness.AddProductAsync(product.ProductName, product.Price, product.CategoryCode);
         product.ProductId = newId;
 

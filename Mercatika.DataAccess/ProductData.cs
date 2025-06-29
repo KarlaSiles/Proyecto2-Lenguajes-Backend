@@ -9,7 +9,6 @@ using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 
 
-
 namespace Mercatika.DataAccess
 {
     public class ProductData
@@ -272,7 +271,7 @@ namespace Mercatika.DataAccess
             if (product == null)
                 return null;
 
-           
+
             string detailsQuery = @"
         SELECT productDetail_id, uniqueProduct_code, stock_amount, size
         FROM ProductDetail
@@ -298,6 +297,47 @@ namespace Mercatika.DataAccess
 
             return product;
         }
-    }
-}
 
+        public async Task<List<Product>> GetAllProductsAsync()
+        {
+            List<Product> products = new List<Product>();
+
+            string query = @"
+        SELECT p.product_id, p.product_name, p.price, 
+               c.category_code, c.descripcion AS category_descripcion
+        FROM Product p
+        INNER JOIN Category c ON p.category_code = c.category_code";
+
+            using SqlConnection connection = new SqlConnection(connectionString);
+            using SqlCommand cmd = new SqlCommand(query, connection);
+
+            await connection.OpenAsync();
+            using SqlDataReader reader = await cmd.ExecuteReaderAsync();
+
+            while (await reader.ReadAsync())
+            {
+                var product = new Product
+                {
+                    ProductId = (int)reader["product_id"],
+                    ProductName = reader["product_name"].ToString(),
+                    Price = Convert.ToDecimal(reader["price"]),
+                    CategoryCode = new Category
+                    {
+                        CategoryCode = (int)reader["category_code"],
+                        Description = reader["category_descripcion"].ToString()
+                    },
+                    ProductDetails = new List<ProductDetail>()
+                };
+
+                products.Add(product);
+            }
+
+            await reader.CloseAsync();
+
+          
+            return products;
+        }
+
+    }
+
+}

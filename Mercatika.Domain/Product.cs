@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Mercatika.Domain
+﻿namespace Mercatika.Domain
 {
 
     public class Product

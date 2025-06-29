@@ -20,7 +20,7 @@ namespace Mercatika.DataAccess
             List<Order> orders = new List<Order>();
 
             using SqlConnection connection = new SqlConnection(connectionString);
-            string sql = "SELECT order_id, client_id, employee_id, order_date, address_trip, province_trip, country_trip, phone_trip, date_trip FROM [Order]";
+            string sql = "SELECT order_id, client_id, employee_id, order_date, address_trip, province_trip, country_trip, phone_trip, date_trip, estado FROM [Order]";
             SqlCommand command = new SqlCommand(sql, connection);
 
             await connection.OpenAsync();
@@ -40,7 +40,8 @@ namespace Mercatika.DataAccess
                     reader.GetString(5),
                     reader.GetString(6),
                     reader.GetInt32(7),
-                    reader.GetDateTime(8)
+                    reader.GetDateTime(8),
+                    reader.GetString(9) // estado
                 );
 
                 orders.Add(order);
@@ -65,7 +66,7 @@ namespace Mercatika.DataAccess
         public async Task<Order?> GetOrderByIdAsync(int id)
         {
             using SqlConnection connection = new SqlConnection(connectionString);
-            string sql = @"SELECT order_id, client_id, employee_id, order_date, address_trip, province_trip, country_trip, phone_trip, date_trip 
+            string sql = @"SELECT order_id, client_id, employee_id, order_date, address_trip, province_trip, country_trip, phone_trip, date_trip, estado 
                    FROM [Order] WHERE order_id = @id";
             SqlCommand command = new SqlCommand(sql, connection);
             command.Parameters.AddWithValue("@id", id);
@@ -85,7 +86,8 @@ namespace Mercatika.DataAccess
                     reader.GetString(5),
                     reader.GetString(6),
                     reader.GetInt32(7),
-                    reader.GetDateTime(8)
+                    reader.GetDateTime(8),
+                    reader.GetString(9) // estado
                 );
 
                 await reader.CloseAsync();

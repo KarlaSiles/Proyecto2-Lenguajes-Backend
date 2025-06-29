@@ -11,13 +11,16 @@
         private string countryTrip;
         private int phoneTrip;
         private DateTime dateTrip;
+        private String estado;
+
+
         public List<OrderDetail> Details { get; set; } = new();
 
         public Order()
         {
         }
 
-        public Order(int orderId, int clientId, int employeeId, DateTime orderDate, string addressTrip, string provinceTrip, string countryTrip, int phoneTrip, DateTime dateTrip)
+        public Order(int orderId, int clientId, int employeeId, DateTime orderDate, string addressTrip, string provinceTrip, string countryTrip, int phoneTrip, DateTime dateTrip, string estado)
         {
             this.orderId = orderId;
             this.clientId = clientId;
@@ -28,6 +31,12 @@
             this.countryTrip = countryTrip;
             this.phoneTrip = phoneTrip;
             this.dateTrip = dateTrip;
+            this.estado = estado;
+        }
+        public String Estado
+        {
+            get => estado;
+            set => estado = value;
         }
 
         public int OrderId

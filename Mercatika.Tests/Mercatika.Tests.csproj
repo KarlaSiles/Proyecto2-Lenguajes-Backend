@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Mercatika.Business\Mercatika.Business.csproj" />
     <ProjectReference Include="..\Mercatika.DataAccess\Mercatika.DataAccess.csproj" />
     <ProjectReference Include="..\Mercatika.Domain\Mercatika.Domain.csproj" />
   </ItemGroup>

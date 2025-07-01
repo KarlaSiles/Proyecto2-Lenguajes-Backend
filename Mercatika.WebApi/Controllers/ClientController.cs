@@ -20,13 +20,8 @@ namespace Mercatika.WebApi.Controllers
         {
             try
             {
-                if (client == null)
-                {
-                    return BadRequest("Client object is null");
-                }
-
                 var clientId = _clientBusiness.CreateClient(client);
-                return CreatedAtAction(nameof(GetById), new { id = clientId }, client);
+                return Ok(clientId); // Devuelve solo el ID como número
             }
             catch (ArgumentException ex)
             {

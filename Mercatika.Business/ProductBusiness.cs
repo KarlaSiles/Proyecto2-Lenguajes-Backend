@@ -98,7 +98,7 @@ namespace Mercatika.Business
         public async Task<List<Product>> SearchProductsAsync(string searchTerm)
         {
             if (string.IsNullOrWhiteSpace(searchTerm))
-                return await productData.GetAllProductsAsync(); 
+                return await productData.GetAllProductsAsync();
 
             return await productData.SearchProductsAsync(searchTerm);
         }
@@ -117,7 +117,10 @@ namespace Mercatika.Business
             var product = await productData.GetProductByIdAsync(id);
             return product != null;
         }
+        public async Task<List<Category>> GetAllCategoriesAsync()
+        {
+            return await productData.GetAllCategoriesAsync();
+        }
+
     }
 }
-
-

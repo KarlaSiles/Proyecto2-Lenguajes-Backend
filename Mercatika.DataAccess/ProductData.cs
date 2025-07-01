@@ -153,9 +153,29 @@ namespace Mercatika.DataAccess
         {
             List<Product> products = new List<Product>();
 
-            bool isNumeric = int.TryParse(searchTerm, out int searchId);
+            using SqlConnection connection = new SqlConnection(connectionString);
+            await connection.OpenAsync();
 
-            string query = @"
+            bool searchAll = string.IsNullOrWhiteSpace(searchTerm);
+
+            string query;
+            SqlCommand cmd;
+
+            if (searchAll)
+            {
+                query = @"
+        SELECT p.product_id, p.product_name, p.price, 
+               c.category_code, c.descripcion AS category_descripcion
+        FROM Product p
+        INNER JOIN Category c ON p.category_code = c.category_code";
+
+                cmd = new SqlCommand(query, connection);
+            }
+            else
+            {
+                bool isNumeric = int.TryParse(searchTerm, out int searchId);
+
+                query = @"
         SELECT p.product_id, p.product_name, p.price, 
                c.category_code, c.descripcion AS category_descripcion
         FROM Product p
@@ -164,15 +184,11 @@ namespace Mercatika.DataAccess
            OR (p.product_name LIKE '%' + @searchTerm + '%')
            OR (c.descripcion LIKE '%' + @searchTerm + '%')";
 
-            using SqlConnection connection = new SqlConnection(connectionString);
-            using SqlCommand cmd = new SqlCommand(query, connection);
-
-            cmd.Parameters.AddWithValue("@isNumeric", isNumeric ? 1 : 0);
-            cmd.Parameters.AddWithValue("@searchId", searchId);
-            cmd.Parameters.AddWithValue("@searchTerm", searchTerm);
-
-            await connection.OpenAsync();
-
+                cmd = new SqlCommand(query, connection);
+                cmd.Parameters.AddWithValue("@isNumeric", isNumeric ? 1 : 0);
+                cmd.Parameters.AddWithValue("@searchId", searchId);
+                cmd.Parameters.AddWithValue("@searchTerm", searchTerm);
+            }
 
             using SqlDataReader reader = await cmd.ExecuteReaderAsync();
 
@@ -202,11 +218,10 @@ namespace Mercatika.DataAccess
             if (productIds.Count == 0)
                 return products;
 
-
             string detailsQuery = @"
-        SELECT pd.productDetail_id, pd.product_id, pd.uniqueProduct_code, pd.stock_amount, pd.size
-        FROM ProductDetail pd
-        WHERE pd.product_id IN (" + string.Join(",", productIds) + ")";
+    SELECT pd.productDetail_id, pd.product_id, pd.uniqueProduct_code, pd.stock_amount, pd.size
+    FROM ProductDetail pd
+    WHERE pd.product_id IN (" + string.Join(",", productIds) + ")";
 
             using SqlCommand detailsCmd = new SqlCommand(detailsQuery, connection);
             using SqlDataReader detailsReader = await detailsCmd.ExecuteReaderAsync();
@@ -228,6 +243,7 @@ namespace Mercatika.DataAccess
 
             return products;
         }
+
 
 
         public async Task<Product?> GetProductByIdAsync(int id)
@@ -334,10 +350,36 @@ namespace Mercatika.DataAccess
 
             await reader.CloseAsync();
 
-          
+
             return products;
         }
 
-    }
 
+        public async Task<List<Category>> GetAllCategoriesAsync()
+        {
+            List<Category> categories = new List<Category>();
+
+            string query = @"SELECT category_code, descripcion FROM Category";
+
+            using SqlConnection connection = new SqlConnection(connectionString);
+            using SqlCommand cmd = new SqlCommand(query, connection);
+
+            await connection.OpenAsync();
+            using SqlDataReader reader = await cmd.ExecuteReaderAsync();
+
+            while (await reader.ReadAsync())
+            {
+                var category = new Category
+                {
+                    CategoryCode = (int)reader["category_code"],
+                    Description = reader["descripcion"].ToString()
+                };
+
+                categories.Add(category);
+            }
+
+            return categories;
+        }
+
+    }
 }

@@ -46,7 +46,7 @@ public class ProductsController : ControllerBase
         if (product.CategoryCode == null || product.CategoryCode.CategoryCode <= 0)
             return BadRequest("Categoría inválida.");
 
-        
+
         var newId = await productBusiness.AddProductAsync(product.ProductName, product.Price, product.CategoryCode);
         product.ProductId = newId;
 
@@ -110,6 +110,13 @@ public class ProductsController : ControllerBase
             return StatusCode(500, "Error actualizando el detalle del producto.");
 
         return NoContent();
+    }
+
+    [HttpGet("categories")]
+    public async Task<ActionResult<IEnumerable<Category>>> GetAllCategories()
+    {
+        var categories = await productBusiness.GetAllCategoriesAsync();
+        return Ok(categories);
     }
 
 }

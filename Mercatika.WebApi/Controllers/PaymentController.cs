@@ -22,23 +22,13 @@ namespace Mercatika.WebApi.Controllers
             return Ok(payments);
         }
 
-        [HttpGet("{id}")]
-        public IActionResult GetById(int id)
-        {
-            var payment = paymentBusiness.GetPaymentById(id);
-            if (payment == null)
-                return NotFound("Pago no encontrado.");
-
-            return Ok(payment);
-        }
-
         [HttpPut("{id}")]
-        public IActionResult Update(int id, [FromBody] Payment payment)
+        public IActionResult Update(int id, [FromBody] PaymentUpdateDto dto)
         {
-            if (id != payment.PaymentId)
+            if (id != dto.PaymentId)
                 return BadRequest("El ID de la URL no coincide con el ID del objeto.");
 
-            bool success = paymentBusiness.UpdatePayment(id, payment.Estado, payment.CreditCardNum, payment.PaymentMethodId);
+            bool success = paymentBusiness.UpdatePayment(id, dto.CreditCardNum, dto.PaymentMethodId);
 
             if (!success)
                 return NotFound("No se pudo actualizar el pago.");

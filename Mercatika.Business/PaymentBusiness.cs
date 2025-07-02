@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Mercatika.DataAccess;
 using Mercatika.Domain;
 
@@ -22,24 +19,12 @@ namespace Mercatika.Business
             return paymentData.GetAllPayments();
         }
 
-        public Payment? GetPaymentById(int id)
-        {
-            if (id <= 0)
-                throw new ArgumentException("ID inválido.");
-
-            return paymentData.GetPaymentById(id);
-        }
-
-        public bool UpdatePayment(int paymentId, string estado, int? creditCardNum, int? paymentMethodId)
+        public bool UpdatePayment(int paymentId, int? creditCardNum, int paymentMethodId)
         {
             if (paymentId <= 0)
                 throw new ArgumentException("ID de pago inválido.");
 
-            if (string.IsNullOrWhiteSpace(estado))
-                throw new ArgumentException("El estado no puede ser vacío.");
-
-          
-            return paymentData.UpdatePayment(paymentId, estado, creditCardNum, paymentMethodId ?? 0);
+            return paymentData.UpdatePayment(paymentId, creditCardNum, paymentMethodId);
         }
     }
 }
